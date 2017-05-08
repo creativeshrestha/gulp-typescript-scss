@@ -15,18 +15,12 @@
 </head>
 <body>
     <div class="wrapper">
-        <?php include_once ('header.php'); ?>
-        
-        <div class="slider-banner">
-            <div class="image">
-                <picture>
-                    <source srcset="../img/0-desktop.jpg" media="(min-width: 678px)">
-                    <img  srcset="../img/0-mobile.jpg" alt="">
-                </picture>
-            </div>
-        </div><!-- slider-banner -->
+        <?php //include_once ('header.php'); ?>
 
-    <?php include_once ('footer.php'); ?>
+        <p id="test"></p>
+
+    <?php //include_once ('footer.php'); ?>
+    <script src="../js/typescript.js"></script> 
     </div><!-- /wrapper -->
 </body>
 </html>
